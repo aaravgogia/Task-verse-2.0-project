@@ -1,141 +1,372 @@
-# 🌌 TaskVerse 2.0 — Enterprise SaaS Task Management Hub
+<div align="center">
 
-TaskVerse 2.0 is a premium, high-fidelity, production-ready enterprise SaaS task management application designed for modern agile squads. It features a complete server-proxied architecture with beautiful dark-mode first design guidelines inspired by Linear, Notion, and Stripe.
+# 🚀 Task Verse 2.0
 
----
+### *An AI-Powered Productivity & Project Management Platform*
 
-## 🚀 Key Modules & Capabilities
+<p align="center">
 
-### 1. 📊 Interactive Workspace Dashboard (Landing Page)
-An intelligence-augmented dashboard that serves as the central cockpit of your operations right after login:
-*   **KPI Scorecards:** Interactive cards displaying *Total Scope*, *Completed Goals*, *Active In-Progress tasks*, and *Overdue alerts* featuring live-rendered mini-sparklines.
-*   **Velocity & Scope Distribution:** Rich analytics widgets built using `recharts` mapping completion rates, weekly task trends, and project load shares.
-*   **Personal Focus Meter:** Interactive widgets reporting user focus coefficients, streaks, daily goals progress, and estimated effort remaining.
-*   **Dynamic Local AI Insights:** Non-blocking client-computed recommendations flagging high-priority blockers, celebrating completed goals, and reporting project velocity.
-*   **Quick Actions Console:** Hotkeys to rapidly dispatch tasks, establish new projects, invite collaborators, and instantly switch views.
-*   **Data Portability (CSV):** Seamless options to export active project data to CSV spreadsheets and parse incoming scope lists.
+<img src="https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=white"/>
 
-### 2. 🎚️ Advanced Multi-Role Authentication
-A polished security portal separating corporate permissions elegantly:
-*   **Sign-In Panel:** Dedicated sections for **Administrator Credentials** (e.g., password `admin123`) and **Employee Account** selection (e.g., password `user123`).
-*   **Sign-Up Form:** Form validation to register new employees or admins on the fly.
-*   **Instant Shortcuts:** High-contrast hotkey bypass buttons for rapid admin and employee profile emulation during reviews or pitches.
-*   **Secure Session Termination:** A custom, animated **Logout Page** with dynamic time-delays that safely tears down active client sessions and returns to the gatekeeper portal.
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
 
-### 3. 📋 Elite Kanban Workspace
-A drag-and-drop workflow tracker that integrates directly with custom projects and folder sub-structures. Fully featured with task creation, priorities (High, Medium, Low), task details editing, status tracking, and inline descriptions.
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
 
-### 4. 📅 Integrated Calendar Matrix
-A high-contrast visual timeline mapping upcoming milestones, deadlines, and project releases over the current week or month.
+<img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
 
-### 5. 🔔 Live Activity Feed & Audit Trail
-A persistent audit trail displaying recent actions, workspace assignments, comment signals, and status upgrades in real-time.
+<img src="https://img.shields.io/badge/Gemini-AI-orange?style=for-the-badge"/>
+
+<img src="https://img.shields.io/badge/License-MIT-success?style=for-the-badge"/>
+
+</p>
+
+*A modern AI-powered task management application built to simplify project planning, task organization, and productivity with intelligent assistance.*
+
+</div>
 
 ---
 
-## 🛠️ Technical Stack
+# 📖 About the Project
 
-*   **Frontend:** React 18, Vite, TypeScript
-*   **Styling:** Tailwind CSS (Modern `@import "tailwindcss";` custom theme layout)
-*   **Charts & Visuals:** Recharts (Area charts, Pie charts, and sparklines)
-*   **Animations:** Framer Motion (Page transitions, card entries, micro-interactions)
-*   **Icons:** Lucide React
-*   **Backend Support:** Node.js, Express, CJS compilation
+Task Verse 2.0 is a full-stack productivity platform that combines intelligent task management with an intuitive user experience. It enables users to efficiently organize projects, monitor task progress, manage deadlines, and leverage AI-powered assistance to streamline daily workflows.
+
+The platform is designed with scalability, responsiveness, and usability in mind, making it suitable for both individual users and collaborative teams.
 
 ---
 
-## 💾 Local Setup & Installation
+# ✨ Key Features
 
-Follow these steps to run TaskVerse 2.0 locally on your computer:
+### 📋 Smart Task Management
 
-### Prerequisites
-Make sure you have [Node.js](https://nodejs.org/) (v18 or higher) installed on your system.
+- Create, edit and delete tasks
+- Organize tasks by priority
+- Track completion status
+- Due date scheduling
+- Task categorization
 
-### 1. Extract and Install Dependencies
-In your terminal, navigate to the project directory and run:
+---
+
+### 📁 Project Workspace
+
+- Multiple project support
+- Folder organization
+- Structured task hierarchy
+- Easy navigation
+
+---
+
+### 📊 Interactive Dashboard
+
+- Productivity overview
+- Task statistics
+- Recent activities
+- Progress visualization
+- Project insights
+
+---
+
+### 📅 Calendar Planner
+
+- Deadline visualization
+- Schedule planning
+- Daily & monthly task view
+
+---
+
+### 📌 Kanban Board
+
+- Drag & Drop workflow
+- Visual task tracking
+- Status management
+
+---
+
+### 🤖 AI Assistant
+
+Integrated Gemini AI helps users by providing:
+
+- Smart task recommendations
+- Productivity suggestions
+- Workflow assistance
+- Intelligent conversations
+
+---
+
+### 📈 Activity Tracking
+
+- Task history
+- Project updates
+- User activity logs
+- Timeline monitoring
+
+---
+
+### 🔒 Secure Authentication
+
+- User Login
+- Session Management
+- Protected Routes
+
+---
+
+### 🎨 Modern User Experience
+
+- Responsive Design
+- Smooth Animations
+- Clean Interface
+- Mobile Friendly
+- Fast Performance
+
+---
+
+# 🏗️ System Architecture
+
+```
+                React + TypeScript
+                        │
+                        ▼
+                Python Backend API
+                        │
+                        ▼
+                  SQL Database
+                        │
+                        ▼
+                Gemini AI Integration
+```
+
+---
+
+# 🛠️ Tech Stack
+
+## Frontend
+
+- React
+- TypeScript
+- Vite
+- HTML5
+- CSS3
+
+---
+
+## Backend
+
+- Python
+
+---
+
+## Database
+
+- SQL
+
+---
+
+## Artificial Intelligence
+
+- Gemini API
+
+---
+
+## Tools & Technologies
+
+- Git
+- GitHub
+- VS Code
+- npm
+
+---
+
+# 📂 Project Structure
+
+```
+Task-Verse-2.0
+│
+├── src/
+│   ├── components/
+│   ├── assets/
+│   ├── pages/
+│   ├── hooks/
+│   ├── services/
+│   └── ...
+│
+├── backend.py
+├── server.ts
+├── package.json
+├── vite.config.ts
+├── README.md
+└── screenshots/
+```
+
+---
+
+# 🚀 Getting Started
+
+### Clone the repository
+
+```bash
+git clone https://github.com/yourusername/task-verse-2.0.git
+```
+
+---
+
+### Navigate into the project
+
+```bash
+cd task-verse-2.0
+```
+
+---
+
+### Install dependencies
+
 ```bash
 npm install
 ```
 
-### 2. Configure Environment Variables
-Copy the `.env.example` file to `.env` and fill in any required variables:
-```bash
-cp .env.example .env
-```
+---
 
-### 3. Launch Development Server
-Launch the full-stack development workspace:
+### Run the application
+
 ```bash
 npm run dev
 ```
-The application will automatically bind and run locally. Open your browser to the port shown in your terminal.
 
-### 4. Build for Production
-To bundle static assets and build the compiled server-side build pipeline:
+---
+
+# 📸 Preview
+
+## Dashboard
+
+<p align="center">
+<img src="screenshots/dashboard.png" width="900"/>
+</p>
+
+---
+
+## Task Management
+
+<p align="center">
+<img src="screenshots/tasks.png" width="900"/>
+</p>
+
+---
+
+## Calendar View
+
+<p align="center">
+<img src="screenshots/calendar.png" width="900"/>
+</p>
+
+---
+
+## Kanban Board
+
+<p align="center">
+<img src="screenshots/kanban.png" width="900"/>
+</p>
+
+---
+
+## AI Assistant
+
+<p align="center">
+<img src="screenshots/ai-assistant.png" width="900"/>
+</p>
+
+---
+
+# 🌟 Why Task Verse 2.0?
+
+✔ AI-assisted productivity
+
+✔ Modern responsive interface
+
+✔ Interactive Kanban workflow
+
+✔ Calendar-based scheduling
+
+✔ SQL-powered data management
+
+✔ Python backend architecture
+
+✔ Clean and scalable codebase
+
+✔ Optimized user experience
+
+---
+
+# 🔮 Future Enhancements
+
+- Team Collaboration
+- File Attachments
+- Push Notifications
+- Mobile Application
+- Analytics Dashboard
+- Email Reminders
+- Dark/Light Theme
+- AI Task Prioritization
+- Cloud Synchronization
+
+---
+
+# 🤝 Contributing
+
+Contributions are welcome!
+
+1. Fork the repository
+
+2. Create a new feature branch
+
 ```bash
-npm run build
-npm start
+git checkout -b feature-name
 ```
 
----
+3. Commit your changes
 
-## 🐙 How to Upload this Project to GitHub
+```bash
+git commit -m "Added new feature"
+```
 
-Follow these simple steps to host this project on your personal GitHub profile to share with recruiters or peers:
+4. Push to GitHub
 
-### Option A: The Git Terminal Route
+```bash
+git push origin feature-name
+```
 
-1. **Create a New Repository on GitHub:**
-   Go to [github.com/new](https://github.com/new). Name your repository (e.g., `taskverse-2.0`) and leave it public. Do **not** check the boxes for adding a README, `.gitignore`, or License (as they are already provided in this workspace!).
-
-2. **Initialize Git Locally:**
-   Open your terminal in this workspace folder and run:
-   ```bash
-   # Initialize Git
-   git init
-
-   # Stage all workspace files
-   git add .
-
-   # Create your initial production commit
-   git commit -m "feat: complete TaskVerse 2.0 application with high-fidelity SaaS dashboard and secure auth flow"
-   ```
-
-3. **Link to GitHub and Push:**
-   Copy the remote repository URL from your GitHub setup screen and run:
-   ```bash
-   # Rename default branch to main
-   git branch -M main
-
-   # Add remote link (replace with your actual GitHub URL)
-   git remote add origin https://github.com/YOUR_USERNAME/taskverse-2.0.git
-
-   # Push to main
-   git push -u origin main
-   ```
-
-### Option B: The Export & Drag-and-Drop Route (No Terminal)
-
-1. **Export Code from AI Studio:**
-   * Open the **Settings** menu inside the Google AI Studio project interface.
-   * Click **Export Workspace as ZIP** to download the entire codebase to your machine.
-   * Unzip the archive on your local computer.
-
-2. **Upload directly on GitHub Web:**
-   * Go to [github.com/new](https://github.com/new) and create your repository.
-   * Click the **"uploading an existing file"** link in the setup instructions banner.
-   * Drag-and-drop the unzipped project folder contents directly into the browser.
-   * Commit the changes to the `main` branch.
+5. Open a Pull Request
 
 ---
 
-## 🔒 Security & Roles Cheat Sheet (Demo Accounts)
+# 👨‍💻 Developer
 
-Use these credentials to instantly explore and showcase user permission hierarchies:
+## Aarav Gogia
 
-*   **Administrator Role:**
-    *   **Username:** `Aarav Gogia`
-    *   **Password:** `admin123`
-*   **Employee/User Role:**
-    *   **Account:** Select any profile (e.g., `Jane Doe`)
-    *   **Password:** `user123`
+**B.Tech Computer Science Engineering**
+
+VIT Bhopal University
+
+### Connect with me
+
+- GitHub: https://github.com/aaravgogia
+- LinkedIn: *(Add your LinkedIn Profile)*
+
+---
+
+# ⭐ Support the Project
+
+If you found this repository useful,
+
+⭐ Star this repository
+
+🍴 Fork this repository
+
+📢 Share it with others
+
+---
+
+<div align="center">
+
+### 🚀 Empowering Productivity Through Intelligent Task Management
+
+**Made with ❤️ by Aarav Gogia**
+
+</div>
