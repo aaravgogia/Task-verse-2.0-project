@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Outfit:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-display: "Outfit", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.98); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* =========================================================================
+   TASK VERSE 2.0 UNIVERSAL THEME UTILITIES
+   ========================================================================= */
+
+/* Default Dark Theme variables mapping */
+.bg-app-custom {
+  background-color: #0F1115 !important;
+}
+.bg-sidebar-custom {
+  background-color: #16191E !important;
+}
+.bg-card-custom {
+  background-color: #1C2026 !important;
+}
+.border-custom {
+  border-color: rgba(255, 255, 255, 0.05) !important;
+}
+.text-main-custom {
+  color: #D1D5DB !important;
+}
+.text-title-custom {
+  color: #F1F5F9 !important;
+}
+.text-muted-custom {
+  color: #94A3B8 !important;
+}
+
+/* Light Theme Variable & Component Overrides */
+.light {
+  background-color: #F1F5F9 !important;
+  color: #334155 !important;
+}
+
+.light .bg-app-custom {
+  background-color: #F1F5F9 !important;
+}
+.light .bg-sidebar-custom {
+  background-color: #FFFFFF !important;
+  border-color: #E2E8F0 !important;
+}
+.light .bg-card-custom {
+  background-color: #FFFFFF !important;
+  border-color: #E2E8F0 !important;
+}
+.light .border-custom,
+.light .border-white\/5,
+.light .border-white\/10,
+.light .border-slate-800,
+.light .border-slate-800\/60,
+.light .border-slate-800\/80 {
+  border-color: #E2E8F0 !important;
+}
+.light .text-main-custom,
+.light .text-slate-300,
+.light .text-slate-400 {
+  color: #334155 !important;
+}
+.light .text-title-custom,
+.light .text-slate-100,
+.light .text-slate-200 {
+  color: #0F172A !important;
+}
+.light .text-muted-custom,
+.light .text-slate-500 {
+  color: #64748B !important;
+}
+
+/* Custom UI Elements Overrides for Light Mode */
+.light aside, 
+.light header,
+.light .bg-\[\#16191E\],
+.light .bg-\[\#16191E\]\/60,
+.light .bg-\[\#1C2026\],
+.light .bg-\[\#1C2026\]\/40,
+.light .bg-\[\#1C2026\]\/45,
+.light .bg-\[\#1C2026\]\/50,
+.light .bg-\[\#1C2026\]\/80,
+.light .bg-\[\#1C2026\]\/90,
+.light .bg-slate-900 {
+  background-color: #FFFFFF !important;
+  color: #334155 !important;
+  border-color: #E2E8F0 !important;
+}
+
+.light .bg-\[\#0F1115\],
+.light .bg-\[\#0F1115\]\/20,
+.light .bg-\[\#0F1115\]\/40,
+.light .bg-\[\#0F1115\]\/50,
+.light .bg-\[\#0F1115\]\/60,
+.light .bg-slate-950,
+.light .bg-slate-950\/20,
+.light .bg-slate-950\/30,
+.light .bg-slate-950\/40,
+.light .bg-slate-950\/50,
+.light .bg-slate-950\/80,
+.light .bg-\[\#090A0F\],
+.light .bg-\[\#090A0F\]\/40,
+.light .bg-\[\#090A0F\]\/80,
+.light .bg-\[\#111319\],
+.light .bg-\[\#111319\]\/80 {
+  background-color: #F8FAFC !important;
+  color: #334155 !important;
+  border-color: #E2E8F0 !important;
+}
+
+.light input,
+.light textarea,
+.light select {
+  background-color: #FFFFFF !important;
+  color: #0F172A !important;
+  border-color: #CBD5E1 !important;
+}
+
+.light input::placeholder,
+.light textarea::placeholder {
+  color: #94A3B8 !important;
+}
+
+.light .hover\:bg-white\/5:hover,
+.light .hover\:bg-slate-800:hover {
+  background-color: #F1F5F9 !important;
+}
+
+.light .text-indigo-400 {
+  color: #4F46E5 !important;
+}
+
+.light .bg-indigo-500\/10 {
+  background-color: rgba(79, 70, 229, 0.08) !important;
+}
+
+.light .border-indigo-500\/15,
+.light .border-indigo-500\/20 {
+  border-color: rgba(79, 70, 229, 0.2) !important;
+}
+
+.light .text-amber-400 {
+  color: #D97706 !important;
+}
+.light .bg-amber-500\/10 {
+  background-color: rgba(217, 119, 6, 0.08) !important;
+}
+
+.light .text-purple-400 {
+  color: #7C3AED !important;
+}
+.light .bg-purple-500\/10 {
+  background-color: rgba(124, 58, 237, 0.08) !important;
+}
+
+.light .text-emerald-400 {
+  color: #059669 !important;
+}
+.light .bg-emerald-500\/10 {
+  background-color: rgba(5, 150, 105, 0.08) !important;
+}
+
+/* Exclude active white-text states, e.g. solid colored buttons, tags, or badges */
+.light .bg-indigo-600,
+.light .bg-indigo-600 *,
+.light .bg-indigo-500,
+.light .bg-indigo-500 *,
+.light .bg-emerald-600,
+.light .bg-emerald-600 *,
+.light .bg-rose-500,
+.light .bg-rose-500 *,
+.light button.bg-indigo-600,
+.light button.bg-indigo-500,
+.light button.bg-emerald-600,
+.light button.bg-rose-500,
+.light .text-white {
+  color: #FFFFFF !important;
+}
+
+/* Reset secondary status texts that shouldn't be white */
+.light div.text-slate-400,
+.light span.text-slate-400,
+.light p.text-slate-400,
+.light div.text-slate-300,
+.light span.text-slate-300,
+.light p.text-slate-300 {
+  color: #64748B !important;
+}
+
+/* =========================================================================
+   SMOOTH TRANSITIONS FOR MULTI-THEME TOGGLING
+   ========================================================================= */
+#app-workspace,
+#app-workspace * {
+  transition: background-color 0.4s cubic-bezier(0.16, 1, 0.3, 1),
+              border-color 0.4s cubic-bezier(0.16, 1, 0.3, 1),
+              color 0.4s cubic-bezier(0.16, 1, 0.3, 1),
+              box-shadow 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+

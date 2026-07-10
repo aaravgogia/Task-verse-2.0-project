@@ -1,0 +1,6 @@
+{
+  "name": "Task Verse 2.0",
+  "description": "An intelligent, high-fidelity task and workspace management platform equipped with a real-time AI Deadline Predictor, adaptive theme toggles, clean credentials-based auth (Admin and User roles), and a companion AI Chatbot helper.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

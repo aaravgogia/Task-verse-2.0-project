@@ -1,0 +1,344 @@
+{
+  "users": [
+    {
+      "id": "usr-1",
+      "name": "Aarav Gogia",
+      "email": "aaravgogia10d@gmail.com",
+      "role": "user",
+      "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=Aarav"
+    },
+    {
+      "id": "usr-2",
+      "name": "Jane Doe",
+      "email": "jane.doe@company.com"
+    },
+    {
+      "id": "usr-3",
+      "name": "John Smith",
+      "email": "john.smith@company.com"
+    },
+    {
+      "id": "usr-4",
+      "name": "Emily Stone",
+      "email": "emily.stone@company.com"
+    }
+  ],
+  "projects": [
+    {
+      "id": "prj-1",
+      "name": "Enterprise Web Portal",
+      "description": "Building the next-gen responsive client interface.",
+      "color": "indigo",
+      "isFavorite": true,
+      "isShared": true,
+      "sharedWith": [
+        "usr-2",
+        "usr-4"
+      ],
+      "createdAt": "2026-07-01T10:00:00Z"
+    },
+    {
+      "id": "prj-2",
+      "name": "Marketing Campaign",
+      "description": "Product launch and organic traffic optimization.",
+      "color": "emerald",
+      "isFavorite": false,
+      "isShared": true,
+      "sharedWith": [
+        "usr-3"
+      ],
+      "createdAt": "2026-07-02T11:30:00Z"
+    },
+    {
+      "id": "prj-3",
+      "name": "Personal Goals",
+      "description": "Skill learning and daily habits tracker.",
+      "color": "amber",
+      "isFavorite": true,
+      "isShared": false,
+      "sharedWith": [],
+      "createdAt": "2026-07-03T09:00:00Z"
+    }
+  ],
+  "folders": [
+    {
+      "id": "fld-1",
+      "name": "Frontend Work",
+      "projectId": "prj-1",
+      "description": "User interface, layout, styling, and animations.",
+      "createdAt": "2026-07-01T10:15:00Z"
+    },
+    {
+      "id": "fld-2",
+      "name": "Backend Services",
+      "projectId": "prj-1",
+      "description": "API routes, databases, and OAuth handlers.",
+      "createdAt": "2026-07-01T10:20:00Z"
+    },
+    {
+      "id": "fld-3",
+      "name": "Social & Media",
+      "projectId": "prj-2",
+      "description": "Content calendars, images, and posts.",
+      "createdAt": "2026-07-02T12:00:00Z"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "TSK-101",
+      "title": "Design landing page mockup",
+      "description": "Create high-fidelity wireframes in Figma for the home screen and main dashboards. Make sure to gather feedback on the layout.",
+      "status": "todo",
+      "priority": "high",
+      "dueDate": "2026-07-15",
+      "projectId": "prj-1",
+      "folderId": "fld-1",
+      "tags": [
+        "design",
+        "v1",
+        "figma"
+      ],
+      "assignees": [
+        "usr-1"
+      ],
+      "isFavorite": true,
+      "isArchived": false,
+      "attachments": [
+        {
+          "id": "att-1",
+          "name": "dashboard_draft.png",
+          "size": 102456,
+          "type": "image/png",
+          "url": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=300&q=80",
+          "uploadedAt": "2026-07-05T14:30:00Z"
+        }
+      ],
+      "commentsCount": 1,
+      "createdAt": "2026-07-05T12:00:00Z",
+      "updatedAt": "2026-07-10T07:38:52.396Z"
+    },
+    {
+      "id": "TSK-102",
+      "title": "Set up Express API endpoints",
+      "description": "Implement CRUD REST endpoints for users, projects, folders, and tasks. Tie them to the relational data model.",
+      "status": "in_progress",
+      "priority": "high",
+      "dueDate": "2026-07-20",
+      "projectId": "prj-1",
+      "folderId": "fld-2",
+      "tags": [
+        "backend",
+        "api",
+        "express"
+      ],
+      "assignees": [
+        "usr-2",
+        "usr-1"
+      ],
+      "isFavorite": false,
+      "isArchived": false,
+      "attachments": [],
+      "commentsCount": 2,
+      "createdAt": "2026-07-06T09:00:00Z",
+      "updatedAt": "2026-07-06T09:00:00Z"
+    },
+    {
+      "id": "TSK-103",
+      "title": "Implement task drag-and-drop Kanban",
+      "description": "Build an elegant, interactive column view for tasks with smooth animations. Enable columns: To Do, In Progress, Review, Completed.",
+      "status": "in_progress",
+      "priority": "medium",
+      "dueDate": "2026-07-22",
+      "projectId": "prj-1",
+      "folderId": "fld-1",
+      "tags": [
+        "frontend",
+        "drag-drop",
+        "motion"
+      ],
+      "assignees": [
+        "usr-1"
+      ],
+      "isFavorite": true,
+      "isArchived": false,
+      "attachments": [],
+      "commentsCount": 0,
+      "createdAt": "2026-07-07T11:00:00Z",
+      "updatedAt": "2026-07-10T07:36:38.799Z"
+    },
+    {
+      "id": "TSK-104",
+      "title": "Draft blog post announcement",
+      "description": "Write a launch post highlighting collaboration, folder nesting, Kanban cards, and activity logs. Share with marketing for edits.",
+      "status": "todo",
+      "priority": "low",
+      "dueDate": "2026-07-25",
+      "projectId": "prj-2",
+      "folderId": "fld-3",
+      "tags": [
+        "content",
+        "launch"
+      ],
+      "assignees": [
+        "usr-3"
+      ],
+      "isFavorite": false,
+      "isArchived": false,
+      "attachments": [],
+      "commentsCount": 0,
+      "createdAt": "2026-07-08T08:30:00Z",
+      "updatedAt": "2026-07-08T08:30:00Z"
+    },
+    {
+      "id": "TSK-105",
+      "title": "Review backend schema design",
+      "description": "Inspect foreign keys, task indexing, and transaction safety for comment addition. Must optimize for scale.",
+      "status": "review",
+      "priority": "high",
+      "dueDate": "2026-07-14",
+      "projectId": "prj-1",
+      "folderId": "fld-2",
+      "tags": [
+        "database",
+        "review",
+        "sql"
+      ],
+      "assignees": [
+        "usr-4"
+      ],
+      "isFavorite": false,
+      "isArchived": false,
+      "attachments": [],
+      "commentsCount": 0,
+      "createdAt": "2026-07-08T10:00:00Z",
+      "updatedAt": "2026-07-08T10:00:00Z"
+    }
+  ],
+  "comments": [
+    {
+      "id": "com-1",
+      "taskId": "TSK-101",
+      "userId": "usr-2",
+      "content": "This mockup looks extremely clean! Let's make sure the dark theme options are fully supported.",
+      "timestamp": "2026-07-05T14:00:00Z"
+    },
+    {
+      "id": "com-2",
+      "taskId": "TSK-102",
+      "userId": "usr-1",
+      "content": "API routes are set up and running on port 3000. Going to tie in the DB transactions today.",
+      "timestamp": "2026-07-06T15:30:00Z"
+    },
+    {
+      "id": "com-3",
+      "taskId": "TSK-102",
+      "userId": "usr-2",
+      "content": "Awesome, @Aarav Gogia! Let me know if you want any help testing the endpoint responses.",
+      "timestamp": "2026-07-06T16:00:00Z"
+    }
+  ],
+  "activities": [
+    {
+      "id": "act-1783669405825-5alp",
+      "userId": "usr-1",
+      "userName": "Aarav Gogia",
+      "action": "user_login",
+      "details": "logged in securely as Standard User",
+      "timestamp": "2026-07-10T07:43:25.825Z"
+    },
+    {
+      "id": "act-1783669405084-e3zz",
+      "userId": "usr-1",
+      "userName": "Aarav Gogia",
+      "action": "user_login",
+      "details": "logged in securely as Administrator",
+      "timestamp": "2026-07-10T07:43:25.084Z"
+    },
+    {
+      "id": "act-1783669403847-8orb",
+      "userId": "usr-1",
+      "userName": "Aarav Gogia",
+      "action": "user_login",
+      "details": "logged in securely as Standard User",
+      "timestamp": "2026-07-10T07:43:23.847Z"
+    },
+    {
+      "id": "act-1783669132396-rbpx",
+      "userId": "usr-1",
+      "userName": "Aarav Gogia",
+      "taskId": "TSK-101",
+      "taskTitle": "Design landing page mockup",
+      "action": "quick_update",
+      "details": "Quick-updated via MS Paint Wireframe Form (Completed: false, Employee: Aarav Gogia)",
+      "timestamp": "2026-07-10T07:38:52.396Z"
+    },
+    {
+      "id": "act-1783668998799-eipu",
+      "userId": "usr-1",
+      "userName": "Aarav Gogia",
+      "taskId": "TSK-103",
+      "taskTitle": "Implement task drag-and-drop Kanban",
+      "action": "update_task",
+      "details": "edited task details",
+      "timestamp": "2026-07-10T07:36:38.799Z"
+    },
+    {
+      "id": "act-1783668998683-xwxc",
+      "userId": "usr-1",
+      "userName": "Aarav Gogia",
+      "taskId": "TSK-103",
+      "taskTitle": "Implement task drag-and-drop Kanban",
+      "action": "update_task",
+      "details": "updated status to 'in_progress'",
+      "timestamp": "2026-07-10T07:36:38.683Z"
+    },
+    {
+      "id": "act-1783665352047-loe3",
+      "userId": "usr-1",
+      "userName": "Aarav Gogia",
+      "action": "user_login",
+      "details": "logged in securely as Administrator",
+      "timestamp": "2026-07-10T06:35:52.047Z"
+    },
+    {
+      "id": "act-1",
+      "userId": "usr-1",
+      "userName": "Aarav Gogia",
+      "taskId": "TSK-101",
+      "taskTitle": "Design landing page mockup",
+      "action": "create_task",
+      "details": "created task 'Design landing page mockup'",
+      "timestamp": "2026-07-05T12:00:00Z"
+    },
+    {
+      "id": "act-2",
+      "userId": "usr-1",
+      "userName": "Aarav Gogia",
+      "taskId": "TSK-101",
+      "taskTitle": "Design landing page mockup",
+      "action": "add_attachment",
+      "details": "attached dashboard_draft.png",
+      "timestamp": "2026-07-05T14:30:00Z"
+    },
+    {
+      "id": "act-3",
+      "userId": "usr-2",
+      "userName": "Jane Doe",
+      "taskId": "TSK-102",
+      "taskTitle": "Set up Express API endpoints",
+      "action": "update_status",
+      "details": "moved task to 'In Progress'",
+      "timestamp": "2026-07-06T10:00:00Z"
+    },
+    {
+      "id": "act-4",
+      "userId": "usr-1",
+      "userName": "Aarav Gogia",
+      "taskId": "TSK-103",
+      "taskTitle": "Implement task drag-and-drop Kanban",
+      "action": "create_task",
+      "details": "created task 'Implement task drag-and-drop Kanban'",
+      "timestamp": "2026-07-07T11:00:00Z"
+    }
+  ]
+}
