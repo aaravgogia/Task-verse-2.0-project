@@ -2,7 +2,7 @@
 
 # 🚀 Task Verse 2.0
 
-### *An AI-Powered Productivity & Project Management Platform*
+### A Modern Productivity & Project Management Platform
 
 <p align="center">
 
@@ -14,13 +14,13 @@
 
 <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
 
-<img src="https://img.shields.io/badge/Gemini-AI-orange?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Status-Completed-success?style=for-the-badge"/>
 
 <img src="https://img.shields.io/badge/License-MIT-success?style=for-the-badge"/>
 
 </p>
 
-*A modern AI-powered task management application built to simplify project planning, task organization, and productivity with intelligent assistance.*
+*A full-stack project management application built to simplify task organization, project planning, and productivity through an intuitive and responsive user experience.*
 
 </div>
 
@@ -28,92 +28,101 @@
 
 # 📖 About the Project
 
-Task Verse 2.0 is a full-stack productivity platform that combines intelligent task management with an intuitive user experience. It enables users to efficiently organize projects, monitor task progress, manage deadlines, and leverage AI-powered assistance to streamline daily workflows.
+Task Verse 2.0 is a full-stack project and task management platform that helps users efficiently organize their work, manage projects, track progress, and visualize productivity.
 
-The platform is designed with scalability, responsiveness, and usability in mind, making it suitable for both individual users and collaborative teams.
+The application combines a modern React frontend with a Python backend and an SQL database, providing a scalable architecture capable of handling real-world productivity workflows.
+
+Designed with simplicity and performance in mind, Task Verse 2.0 offers an elegant user interface, multiple project views, intelligent task organization, and seamless navigation.
 
 ---
 
-# ✨ Key Features
+# ✨ Features
 
-### 📋 Smart Task Management
+## 📋 Task Management
 
 - Create, edit and delete tasks
-- Organize tasks by priority
+- Assign task priorities
+- Manage deadlines
 - Track completion status
-- Due date scheduling
-- Task categorization
+- Organize tasks efficiently
 
 ---
 
-### 📁 Project Workspace
+## 📁 Project Management
 
-- Multiple project support
+- Multiple projects
 - Folder organization
-- Structured task hierarchy
-- Easy navigation
+- Workspace management
+- Project categorization
 
 ---
 
-### 📊 Interactive Dashboard
+## 📊 Dashboard
 
 - Productivity overview
 - Task statistics
-- Recent activities
-- Progress visualization
-- Project insights
+- Project summaries
+- Activity insights
+- Recent updates
 
 ---
 
-### 📅 Calendar Planner
+## 📌 Kanban Board
 
+- Drag & Drop tasks
+- Visual workflow
+- Status tracking
+- Easy organization
+
+---
+
+## 📅 Calendar View
+
+- Schedule management
 - Deadline visualization
-- Schedule planning
-- Daily & monthly task view
+- Monthly planning
 
 ---
 
-### 📌 Kanban Board
+## 📝 List View
 
-- Drag & Drop workflow
-- Visual task tracking
-- Status management
-
----
-
-### 🤖 AI Assistant
-
-Integrated Gemini AI helps users by providing:
-
-- Smart task recommendations
-- Productivity suggestions
-- Workflow assistance
-- Intelligent conversations
+- Organized task listing
+- Quick navigation
+- Better accessibility
 
 ---
 
-### 📈 Activity Tracking
+## 🤖 Smart Assistant
+
+- Intelligent task suggestions
+- Productivity guidance
+- AI-powered assistance
+- Workflow recommendations
+
+---
+
+## 🔒 Authentication
+
+- Secure Login
+- User Session Management
+- Protected Access
+
+---
+
+## 📈 Activity Logs
 
 - Task history
 - Project updates
-- User activity logs
-- Timeline monitoring
+- User activities
+- Timeline tracking
 
 ---
 
-### 🔒 Secure Authentication
-
-- User Login
-- Session Management
-- Protected Routes
-
----
-
-### 🎨 Modern User Experience
+## 🎨 User Experience
 
 - Responsive Design
 - Smooth Animations
-- Clean Interface
+- Modern Interface
 - Mobile Friendly
 - Fast Performance
 
@@ -121,17 +130,14 @@ Integrated Gemini AI helps users by providing:
 
 # 🏗️ System Architecture
 
-```
-                React + TypeScript
-                        │
-                        ▼
-                Python Backend API
-                        │
-                        ▼
+```text
+               React + TypeScript
+                       │
+                       ▼
+                 Python Backend
+                       │
+                       ▼
                   SQL Database
-                        │
-                        ▼
-                Gemini AI Integration
 ```
 
 ---
@@ -160,16 +166,15 @@ Integrated Gemini AI helps users by providing:
 
 ---
 
-## Artificial Intelligence
-
-- Gemini API
-
----
-
-## Tools & Technologies
+## Version Control
 
 - Git
 - GitHub
+
+---
+
+## Development Tools
+
 - VS Code
 - npm
 
@@ -177,13 +182,13 @@ Integrated Gemini AI helps users by providing:
 
 # 📂 Project Structure
 
-```
+```text
 Task-Verse-2.0
 │
 ├── src/
 │   ├── components/
-│   ├── assets/
 │   ├── pages/
+│   ├── assets/
 │   ├── hooks/
 │   ├── services/
 │   └── ...
@@ -193,22 +198,23 @@ Task-Verse-2.0
 ├── package.json
 ├── vite.config.ts
 ├── README.md
-└── screenshots/
+├── screenshots/
+└── public/
 ```
 
 ---
 
 # 🚀 Getting Started
 
-### Clone the repository
+## Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/task-verse-2.0.git
+git clone https://github.com/YOUR_GITHUB_USERNAME/task-verse-2.0.git
 ```
 
 ---
 
-### Navigate into the project
+## Navigate to Project
 
 ```bash
 cd task-verse-2.0
@@ -216,7 +222,7 @@ cd task-verse-2.0
 
 ---
 
-### Install dependencies
+## Install Dependencies
 
 ```bash
 npm install
@@ -224,7 +230,7 @@ npm install
 
 ---
 
-### Run the application
+## Run the Project
 
 ```bash
 npm run dev
@@ -232,9 +238,9 @@ npm run dev
 
 ---
 
-# 📸 Preview
+# 📸 Project Screenshots
 
-## Dashboard
+## 🏠 Dashboard
 
 <p align="center">
 <img src="screenshots/dashboard.png" width="900"/>
@@ -242,7 +248,7 @@ npm run dev
 
 ---
 
-## Task Management
+## 📋 Task Management
 
 <p align="center">
 <img src="screenshots/tasks.png" width="900"/>
@@ -250,15 +256,7 @@ npm run dev
 
 ---
 
-## Calendar View
-
-<p align="center">
-<img src="screenshots/calendar.png" width="900"/>
-</p>
-
----
-
-## Kanban Board
+## 📌 Kanban Board
 
 <p align="center">
 <img src="screenshots/kanban.png" width="900"/>
@@ -266,45 +264,55 @@ npm run dev
 
 ---
 
-## AI Assistant
+## 📅 Calendar View
 
 <p align="center">
-<img src="screenshots/ai-assistant.png" width="900"/>
+<img src="screenshots/calendar.png" width="900"/>
 </p>
 
 ---
 
-# 🌟 Why Task Verse 2.0?
+## 🤖 Smart Assistant
 
-✔ AI-assisted productivity
+<p align="center">
+<img src="screenshots/assistant.png" width="900"/>
+</p>
 
-✔ Modern responsive interface
+---
 
-✔ Interactive Kanban workflow
+## 📈 Activity Logs
 
-✔ Calendar-based scheduling
+<p align="center">
+<img src="screenshots/activity.png" width="900"/>
+</p>
 
-✔ SQL-powered data management
+---
 
-✔ Python backend architecture
+# 🎯 Why Task Verse 2.0?
 
-✔ Clean and scalable codebase
-
-✔ Optimized user experience
+- 🚀 Full-stack architecture
+- 🐍 Python-powered backend
+- 🗄️ SQL-based data management
+- 📊 Interactive dashboard
+- 📅 Calendar planning
+- 📌 Kanban workflow
+- 🤖 Intelligent productivity assistant
+- 📱 Fully responsive design
+- ⚡ Clean and scalable codebase
 
 ---
 
 # 🔮 Future Enhancements
 
 - Team Collaboration
-- File Attachments
 - Push Notifications
+- Email Reminders
+- File Attachments
 - Mobile Application
 - Analytics Dashboard
-- Email Reminders
-- Dark/Light Theme
-- AI Task Prioritization
+- Dark Mode
 - Cloud Synchronization
+- Role-Based Access Control
 
 ---
 
@@ -314,7 +322,7 @@ Contributions are welcome!
 
 1. Fork the repository
 
-2. Create a new feature branch
+2. Create a feature branch
 
 ```bash
 git checkout -b feature-name
@@ -323,7 +331,7 @@ git checkout -b feature-name
 3. Commit your changes
 
 ```bash
-git commit -m "Added new feature"
+git commit -m "Added a new feature"
 ```
 
 4. Push to GitHub
@@ -333,6 +341,12 @@ git push origin feature-name
 ```
 
 5. Open a Pull Request
+
+---
+
+# 📄 License
+
+This project is licensed under the **MIT License**.
 
 ---
 
@@ -346,27 +360,27 @@ VIT Bhopal University
 
 ### Connect with me
 
-- GitHub: https://github.com/aaravgogia
-- LinkedIn: *(Add your LinkedIn Profile)*
+- 💻 GitHub: https://github.com/YOUR_GITHUB_USERNAME
+- 💼 LinkedIn: YOUR_LINKEDIN_PROFILE
 
 ---
 
-# ⭐ Support the Project
+# ⭐ Support
 
-If you found this repository useful,
+If you found this project helpful:
 
 ⭐ Star this repository
 
 🍴 Fork this repository
 
-📢 Share it with others
+💡 Share your feedback
 
 ---
 
 <div align="center">
 
-### 🚀 Empowering Productivity Through Intelligent Task Management
+## 🚀 Organize Better. Work Smarter. Achieve More.
 
-**Made with ❤️ by Aarav Gogia**
+### Built with ❤️ by Aarav Gogia
 
 </div>
