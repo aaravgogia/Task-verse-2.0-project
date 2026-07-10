@@ -281,9 +281,7 @@ I'm passionate about **Software Development**, **Artificial Intelligence**, **Ma
 
 **https://github.com/aaravgogia**
 
-### 💼 LinkedIn
 
-*(Add your LinkedIn profile URL here.)*
 
 ---
 
